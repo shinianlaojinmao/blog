@@ -38,7 +38,7 @@ menubar:
         theme: '#3DC550'
         icon: solar:notebook-bookmark-bold-duotone
         title: 文档
-        url: /about123/
+        url: /tags/
       - id: explore
         theme: '#FA6400'
         icon: solar:planet-bold-duotone
