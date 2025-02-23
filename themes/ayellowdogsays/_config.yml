@@ -570,3 +570,12 @@ api_host:
   ghapi: https://api.github.com
   ghraw: https://raw.githubusercontent.com
   gist: https://gist.github.com
+
+
+# 自定义引入css,js
+inject:
+  head:
+    - <link rel="stylesheet" href="/customize/css/pace.css"> # 网站进度条加载
+  script:
+    - <script type="text/javascript" src="/customize/js/pace.min.js"></script> # 网站进度条加载
+    - <script type="text/javascript" src="https://www.flyalready.cn/js/effectsonclick.js"></script> # 网站进度条加载
