@@ -30,22 +30,25 @@ menubar:
   columns: 4 # 一行多少个
   items: # 可按照自己需求增加，符合以下格式即可
       - id: post
+        theme: '#1BCDFC'
+        icon: solar:documents-bold-duotone
         title: 博客
         url: /
-      - id: news
-        title: 新闻
-        url: /news/
-      - id: xpro
+      - id: wiki
+        theme: '#3DC550'
+        icon: solar:notebook-bookmark-bold-duotone
+        title: 文档
+        url: /about123/
+      - id: explore
         theme: '#FA6400'
         icon: solar:planet-bold-duotone
         title: 探索
-        url: /about123/
+        url: /news/
       - id: social
         theme: '#F44336'
         icon: solar:chat-square-like-bold-duotone
         title: 社交
         url: /friends/
-
 
 ######## Main ########
 # 站点主结构树
